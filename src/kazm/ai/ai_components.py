@@ -4,6 +4,7 @@ from kazm.game.sus import A
 
 # TODO add a history stuff for session speaking and overall with npc and stuff
 
+
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
     api_key=os.environ.get("GROQ_API_KEY")
