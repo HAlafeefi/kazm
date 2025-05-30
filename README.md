@@ -19,3 +19,6 @@ Kazm is still in early development. I'm a beginner python developer with minimal
 - **API-Ready** – Use Kazm with Unity, Unreal, or Godot via REST or WebSocket
 - **Modular Design** – Use only the systems you need
 - And more is planned...
+
+## TODO
+- **More AI providers** - GenAI, OpenAI, Ollama, etc...

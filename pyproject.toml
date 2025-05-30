@@ -1,6 +1,6 @@
 [project]
 name = "kazm"
-version = "0.0.2"
+version = "0.0.21"
 description = "A fully modular AI game backend built in python"
 authors = [
     {name = "hamad",email = "60110135+HAlafeefi@users.noreply.github.com"}
@@ -9,7 +9,7 @@ license = "GPL-3.0"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "openai (>=1.82.0,<2.0.0)"
+    "python-dotenv (>=1.1.0,<2.0.0)"
 ]
 
 [tool.poetry]
@@ -21,6 +21,10 @@ documentation = "https://github.com/HAlafeefi/kazm"
 [tool.poetry.urls]
 Changelog = "https://github.com/HAlafeefi/kazm/releases"
 Issues = "https://github.com/HAlafeefi/kazm/issues"
+
+[tool.poetry.extras]
+groq = ["groq"]
+all = ["groq"] 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
